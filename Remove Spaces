@@ -1,0 +1,25 @@
+class Solution
+{
+  public:
+  	bool valid(char ch)
+    {
+        if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
+        {
+            return 1;
+        }
+        return 0;
+    }
+    string modify (string s)
+    {
+         string temp="";
+        for(int i=0;i<s.length();i++)
+        {
+            if(valid(s[i]))
+            {
+                temp.push_back(s[i]);
+            }
+          
+        }
+      return temp;
+    }
+};
