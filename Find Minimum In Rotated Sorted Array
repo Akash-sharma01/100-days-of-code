@@ -1,4 +1,4 @@
-#Find Minimum In Rotated Sorted Arra
+#Find Minimum In Rotated Sorted Array
 class Solution {
 public:
     int findMin(vector<int>& nums) {
