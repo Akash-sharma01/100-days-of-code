@@ -1,3 +1,5 @@
+#lower case to upper case GFG
+
 string to_upper(string str){
      int ln = str.length();
  
