@@ -1,5 +1,5 @@
 #Longest valid parenthesis
-class Solution {
+class Solution { 
 public:
     int longestValidParentheses(string s)
     {
