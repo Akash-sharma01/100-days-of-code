@@ -1,4 +1,4 @@
-# Power of two
+#Power of two
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
