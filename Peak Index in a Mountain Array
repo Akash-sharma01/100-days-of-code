@@ -1,3 +1,4 @@
+#Peak index in a mountain array
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
