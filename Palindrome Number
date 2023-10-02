@@ -4,7 +4,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         long long on=x;
-        long long sum=0;
+        long long sum=0; 
         while(x>0)
         {
             sum=(sum*10)+(x%10);
